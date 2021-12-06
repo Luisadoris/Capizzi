@@ -288,6 +288,6 @@ p {
    /* max-width */
   @media only screen and (max-width: 600px) {
     .container:hover .title {
-      top: 19%;
+      top: 12%;
     } 
   }
