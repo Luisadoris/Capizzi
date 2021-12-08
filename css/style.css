@@ -53,7 +53,7 @@ html {
   body {
     margin: 0;
     font-family: Helvetica, sans-serif;
-    background-color: #f8f0ea;
+    background-color: white;
  
   }
   
@@ -64,7 +64,7 @@ html {
   /* header */
   
   .header {
-    background-color: #333;
+    background-color: whitesmoke;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
@@ -76,7 +76,7 @@ html {
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #333;
+    background-color: whitesmoke;
   }
   
   .header li a {
@@ -221,6 +221,8 @@ p {
   font-size:12pt;}
 
   /* fireplace button*/
+
+
   .container {
     position: relative;
     margin-top: 50px;
@@ -249,12 +251,13 @@ p {
     position: absolute;
     width: 100%;
     left: 0;
-    top: 50%;
-    font-weight: 700;
+    top: 75%;
+    font-weight: 800;
     font-size: 30px;
     text-align: center;
     text-transform: uppercase;
-    color: white;
+    text-shadow: whitesmoke;
+    color: whitesmoke;
     z-index: 1;
     transition: top .5s ease;
   }
@@ -290,4 +293,14 @@ p {
     .container:hover .title {
       top: 12%;
     } 
+  }
+
+  @media only screen and (max-width: 992px) {
+    .title {
+      color: whitesmoke;
+      top: 50%;
+      font-weight: 700;
+      z-index: 1;
+      transition: top .5s ease;
+    }
   }
