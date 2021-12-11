@@ -58,7 +58,7 @@ html {
   }
   
   a {
-    color: #468F6B;
+    color: #333;
   }
   
   /* header */
@@ -219,7 +219,7 @@ h3 {
 p {  
   color: #333;
   font-family: Helvetica, sans-serif;
-  font-size:12pt;}
+  font: size 12pt;}
 
   /* fireplace button*/
 
@@ -315,4 +315,19 @@ p {
     background-color: whitesmoke;
     color: #333;
     text-align: center;
+    padding: 0 10%;
+ }
+ footer > row
+ {
+ display: flex;
+ }
+ 
+ footer > row > p
+ {
+ flex-grow: 1;
+ flex-basis: 0;
+ text-align: center;
+ padding: 8px 0;
+ margin: 0;
+ font-size: 8pt;
  }
