@@ -205,15 +205,15 @@ h1 {
 }
 
 h2 {
-  color: #333;
+  color: #468F6B;
   font-family: Helvetica-light, sans-serif;
-  font-size:25pt;
+  font-size:17pt;
 }
 
 h3 {
   color: #333;
   font-family: Helvetica-light, sans-serif;
-  font-size:25pt;
+  font-size:12pt;
 }
 
 p {  
@@ -271,14 +271,14 @@ p {
     position: absolute;
     width: 100%;
     left:0;
-    top: 65%;
+    top: 75%;
     text-align: center;
     opacity: 0;
     transition: opacity .35s ease;
   }
   
   .button a {
-    width: 100%;
+ width: 100%;
     padding: 12px 48px;
     text-align: center;
     color: white;
@@ -293,16 +293,19 @@ p {
   @media only screen and (max-width: 600px) {
     .container:hover .title {
       top: 12%;
+      text-align: center;
     } 
   }
 
   @media only screen and (max-width: 992px) {
     .title {
+      position: absolute;
       color: whitesmoke;
-      top: 50%;
+      top: 25%;
       font-weight: 700;
       z-index: 1;
       transition: top .5s ease;
+      text-align: center;
     }
   }
 
