@@ -215,18 +215,25 @@ h3 {
   font-family: Helvetica-light, sans-serif;
   font-size:12pt;
 }
+h4 {
+  color: #468F6B;
+  font-family: Helvetica-light, sans-serif;
+  font-size:15pt;
+  text-align: center;
+}
 
 p {  
   color: #333;
   font-family: Helvetica, sans-serif;
-  font: size 12pt;}
+  font: size 12pt;
+text-align: center;
+}
 
   /* fireplace button*/
 
 
   .container {
     position: relative;
-    margin-top: 50px;
     width: 100%;
     height: auto;
   }
